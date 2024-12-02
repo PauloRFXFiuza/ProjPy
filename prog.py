@@ -1,4 +1,5 @@
 import math as m
+from capTexts import capText
 
 print(" -- Programa Iniciado -- \n")
 
@@ -16,5 +17,10 @@ print("O numero inserido foi ", d , "\n")
 
 e = m.pow(c,d)
 print(" ", c , "^" , d ,"=" , e , "\n")
+
+f= 'arroz e feijao   '
+
+print(f)
+print(capText(f))
 
 print(" -- Programa Concluído -- \n")
