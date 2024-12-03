@@ -6,3 +6,7 @@ def capText(text):
     text = text.capitalize()
     text = text.strip()
     return text
+f= 'arroz e feijao   '
+g= capText(f)
+print(f)
+print(g)
