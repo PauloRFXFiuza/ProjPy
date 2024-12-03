@@ -1,5 +1,4 @@
 import math as m
-from capTexts import capText
 
 print(" -- Programa Iniciado -- \n")
 
