@@ -10,20 +10,18 @@ def sumUntil(n):
 
 '''
 This function returns the sum of the squares from 1 to n.
-Examples: sumSquaresUntil(2) = 1² + 2²=1+4= 5 ; sumSquaresUntil(4) = 1+4+9+16 =30 
-'''
-
+Examples: sumSquaresUntil(2) = 1² + 2²=1+4= 5 ; sumSquaresUntil(4) = 1+4+9+16 =30 => sumSquaresUntil(n) = ((n*(n+1)*(2*n+1))/6)
 '''
 def sumSquaresUntil(n):
-    if  n >= 0:
-        i=0
-        for i in range(n+1):
-            sum = sum + (i*i)
-            return sum
+    if  n >= 0:  
+        return ((n*(n+1)*(2*n+1))/6)
     else:
         print("Not a natural number!")
-'''
+
 print(sumUntil(2))
 print(sumUntil(100))
 print(sumUntil(-2))
 
+print(sumSquaresUntil(2))
+print(sumSquaresUntil(100))
+print(sumSquaresUntil(-2))
